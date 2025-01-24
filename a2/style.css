@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+}
+div.black {
+  min-height: 50px;
+  max-height: 100px;
+  min-width: 50px;
+  max-width: 100px;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  display: inline-block;
+}
+div.white {
+  min-height: 50px;
+  max-height: 100px;
+  min-width: 50px;
+  max-width: 100px;
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  display: inline-block;
+}
