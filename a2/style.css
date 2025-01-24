@@ -1,5 +1,5 @@
 html, body {
-    height: 100%;
+    height: 80%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -8,12 +8,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    align-items:  center;
 }
 
 #header, footer {
     width: 100%;
     text-align: center;
-    height: 200px;
 }
 
 * {
