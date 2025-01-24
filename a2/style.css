@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 * {
   text-align: center;
 }
@@ -37,9 +42,13 @@ div.white {
     padding: 20px;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
-    margin: 0; 
+    /* Center the container */
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
 
 /*Footer Style Settings Margaret Khamvongsa*/
 footer {
