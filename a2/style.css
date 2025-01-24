@@ -21,3 +21,70 @@ div.white {
   background-color: white;
   display: inline-block;
 }
+
+/*Footer Style Settings Margaret Khamvongsa*/
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    padding: 1em 0;
+    margin: 0;
+}
+
+/*Black Style Settings Chess Pieces Margaret Khamvongsa*/
+.imageblackbishop {
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-bishop.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.imageblackcastle {
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-castle.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackking {
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-king.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackknight {
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-knight.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackpawn {
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-pawn.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackqueen {
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-queen.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
