@@ -1,6 +1,9 @@
 html, body {
     height: 100%;
     margin: 0;
+}
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,12 +50,7 @@ div.white {
     padding: 20px;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
-    /* Center the container */
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    box-sizing: border-box;
 }
 
 /*Footer Style Settings Margaret Khamvongsa*/
