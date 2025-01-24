@@ -22,6 +22,24 @@ div.white {
   display: inline-block;
 }
 
+/*Container Style Settings*/
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 100%;
+    margin: 60px;
+    height: 80%;
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/premium_photo-1701760184387-0519ab2e1aee.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+
 /*Footer Style Settings Margaret Khamvongsa*/
 footer {
     width: 100%;
@@ -35,7 +53,7 @@ footer {
 
 /*Black Style Settings Chess Pieces Margaret Khamvongsa*/
 .imageblackbishop {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-bishop.png?raw=true);
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/chess_icons-1/black-bishop.png?raw=true);
     background-size: cover;
     background-position: center;
     background-size: contain;
@@ -45,7 +63,7 @@ footer {
 }
 
 .imageblackcastle {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-castle.png?raw=true);
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/chess_icons-1/black-castle.png?raw=true);
     background-size: cover;
     background-position: center;
     background-size: contain;
@@ -54,7 +72,7 @@ footer {
 }
 
 .imageblackking {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-king.png?raw=true);
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/chess_icons-1/black-king.png?raw=true);
     background-size: cover;
     background-position: center;
     background-size: contain;
@@ -63,7 +81,7 @@ footer {
 }
 
 .imageblackknight {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-knight.png?raw=true);
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/chess_icons-1/black-knight.png?raw=true);
     background-size: cover;
     background-position: center;
     background-size: contain;
@@ -72,7 +90,7 @@ footer {
 }
 
 .imageblackpawn {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-pawn.png?raw=true);
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/chess_icons-1/black-pawn.png?raw=true);
     background-size: cover;
     background-position: center;
     background-size: contain;
@@ -81,7 +99,7 @@ footer {
 }
 
 .imageblackqueen {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-queen.png?raw=true);
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/chess_icons-1/black-queen.png?raw=true);
     background-size: cover;
     background-position: center;
     background-size: contain;
