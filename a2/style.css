@@ -27,8 +27,8 @@ div.white {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 100%;
     margin: 60px;
     height: 80%;
     background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/premium_photo-1701760184387-0519ab2e1aee.jpg?raw=true);
