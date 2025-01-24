@@ -27,8 +27,9 @@ div.white {
 html, body {
     height: 100%;
     margin: 0;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #container {
