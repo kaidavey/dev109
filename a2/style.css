@@ -23,7 +23,13 @@ div.white {
 }
 
 /*Container Style Settings Margaret Khamvongsa*/
-
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #container {
     display: flex;
@@ -38,6 +44,7 @@ div.white {
     padding: 20px;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
+    margin: 0; 
 }
 
 
