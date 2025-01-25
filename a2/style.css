@@ -116,6 +116,12 @@ footer {
     background-position: center;
 }
 
+[class*="white white"][class*="black white"] {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 [class~="whitepawn"] {
     background-image: url(images/white-pawn.png)
 }
