@@ -11,13 +11,6 @@ body {
     justify-content: space-between;
     min-height: 100vh;
 }
-#header {
-    width: 100%;
-    text-align: center;
-    padding: 2em 0;
-    background-color: #f0f0f0;
-    border-bottom: 1px solid #ccc;
-}
 
 #header, footer {
     width: 100%;
