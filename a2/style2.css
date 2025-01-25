@@ -37,10 +37,10 @@ html, body {
 }
 
 #container {
-  margin-top:20%;
+  margin-top:10%;
   margin-left:10%;
   margin-right:10%;
-  margin-bottom:5%;
+  margin-bottom:10%;
   background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images/premium_photo-1701760184387-0519ab2e1aee.jpg?raw=true);
   background-size: 80%;
   background-repeat: no-repeat;
