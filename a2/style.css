@@ -123,34 +123,3 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/*White Chess Piece Styling Kai Davey*/
-[class~="whitepawn"] {
-    background-image: url(images/white-pawn.png)
-}
-
-[class~="whiteknight"] {
-    background-image: url(images/white-knight.png)
-}
-
-[class~="whiteking"] {
-    background-image: url(images/white-king.png)
-}
-
-[class~="whitequeen"] {
-    background-image: url(images/white-queen.png)
-}
-
-[class~="whitebishop"] {
-    background-image: url(images/white-bishop.png)
-}
-
-[class*="white white"][class*="black white"] {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-[class~="whitecastle"] {
-    background-image: url(images/white-castle.png)
-}
