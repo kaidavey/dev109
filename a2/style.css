@@ -41,6 +41,14 @@ body {
   display: inline-block;
 }
 
+#title {
+    positon: fixed;
+    top: 0px;
+    padding: 10px;
+    width: 100%;
+    background-color: #431275;
+}
+
 /*Container Style Settings Margaret Khamvongsa*/
 #container {
     display: flex;
