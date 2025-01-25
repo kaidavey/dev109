@@ -47,3 +47,51 @@ footer {
   bottom: 0;
   left: 0;
 }
+
+.imageblackbishop {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images/black-bishop.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.imageblackcastle {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-castle.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackking {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-king.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackknight {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-knight.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackpawn {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-pawn.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackqueen {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-queen.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
