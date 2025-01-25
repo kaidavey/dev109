@@ -33,6 +33,7 @@ html, body {
   color: #431275;
   background-color: darkcyan;
   text-align: center;
+  z-index: 10; 
 }
 
 #container {
