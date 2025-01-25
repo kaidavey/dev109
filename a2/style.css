@@ -123,3 +123,8 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
