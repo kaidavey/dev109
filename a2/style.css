@@ -41,8 +41,8 @@ div.white {
   display: inline-block;
 }
 
-/*Container Style Settings Margaret Khamvongsa*/
-#container {
+/*Chessboard Style Settings Margaret Khamvongsa*/
+#chessboard {
     display: flex;
     justify-content: center;
     align-items: center;
