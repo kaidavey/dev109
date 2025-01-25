@@ -38,16 +38,13 @@ body {
 }
 
 #title {
-    positon: fixed;
     top: 0px;
-    padding: 10px;
+    padding: 30px;
+    margin: 0px;
+    max-width: 100%;
     color: #431275;
+    background-color: darkcyan;
     text-align: center;
-}
-
-#heading {
-    width: 100%;
-    background-color: yellow;
 }
 
 /*Container Style Settings Margaret Khamvongsa*/
