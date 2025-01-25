@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -113,4 +114,28 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+[class~="whitepawn"] {
+    background-image: url(images/white-pawn.png)
+}
+
+[class~="whiteknight"] {
+    background-image: url(images/white-knight.png)
+}
+
+[class~="whiteking"] {
+    background-image: url(images/white-king.png)
+}
+
+[class~="whitequeen"] {
+    background-image: url(images/white-queen.png)
+}
+
+[class~="whitebishop"] {
+    background-image: url(images/white-bishop.png)
+}
+
+[class~="whitecastle"] {
+    background-image: url(images/white-castle.png)
 }
