@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-div.black {
+.black {
   min-height: 50px;
   max-height: 100px;
   min-width: 50px;
@@ -30,7 +30,7 @@ div.black {
   display: inline-block;
 }
 
-div.white {
+.white {
   min-height: 50px;
   max-height: 100px;
   min-width: 50px;
@@ -41,8 +41,8 @@ div.white {
   display: inline-block;
 }
 
-/*Chessboard Style Settings Margaret Khamvongsa*/
-#chessboard {
+/*Container Style Settings Margaret Khamvongsa*/
+#container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,12 +116,7 @@ footer {
     background-position: center;
 }
 
-[class*="white white"][class*="black white"] {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
+/*White Chess Piece Styling Kai Davey*/
 [class~="whitepawn"] {
     background-image: url(images/white-pawn.png)
 }
@@ -140,6 +135,12 @@ footer {
 
 [class~="whitebishop"] {
     background-image: url(images/white-bishop.png)
+}
+
+[class*="white white"][class*="black white"] {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 [class~="whitecastle"] {
