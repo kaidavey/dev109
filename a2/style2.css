@@ -2,7 +2,6 @@ html, body {
   height: 100%;
   margin: 0;
   background-image: url(images/background.jpg);
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,10 +46,10 @@ html, body {
 /*Chessboard Style Settings Margaret Khamvongsa*/
 
 #container {
-  margin-top: 30%;
+  margin-top: 20%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 /*Footer Kai Davey*/
