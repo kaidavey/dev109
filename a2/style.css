@@ -1,6 +1,8 @@
 html, body {
   height: 100%;
   margin: 0;
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
 }
 
 /*White + Black Pieces and Row Settings Kai Davey*/
@@ -42,12 +44,7 @@ html, body {
 /*Chessboard Style Settings Margaret Khamvongsa*/
 
 #container {
-  margin-top: 20%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5%;
-  background-image: url(images/background.jpg);
-  background-repeat: no-repeat;
+  margin-top: 10%;
 }
 
 /*Footer Kai Davey*/
