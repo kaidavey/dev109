@@ -1,10 +1,6 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-image: url(images/background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /*White + Black Pieces and Row Settings Kai Davey*/
@@ -50,10 +46,12 @@ html, body {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
 }
 
 /*Footer Kai Davey*/
-footer {
+#footer {
   width: 100%;
   background-color: #333;
   text-align: center;
