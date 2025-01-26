@@ -1,10 +1,6 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-image: url(images/background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /*White + Black Pieces and Row Settings Kai Davey*/
@@ -41,6 +37,16 @@ html, body {
   background-color: #333;
   text-align: center;
   z-index: 10;
+}
+
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 /*Chessboard Style Settings Margaret Khamvongsa*/
