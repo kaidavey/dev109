@@ -55,6 +55,8 @@ html, body {
 /*Chessboard Style Settings Margaret Khamvongsa*/
 #container {
   margin-top: 10%;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
 /*Footer Margaret Khamvongsa*/
