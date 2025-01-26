@@ -7,17 +7,21 @@ body {
 }
 
 h1 {
-	font-family: 'DancingScriptRegular';
-  font-size: 400%;
+  font-family:'DancingScriptRegular';
   text-align: center;
   color: blue;
+  font-size: 400%;
 }
 
 p {
   font-family: 'DancingScriptRegular';
-	font-size: 200%;
   font-weight: normal;
   font-style: normal;
+  font-size: 200%;
+}
+
+a, a:hover, a:visited {
+	color: #665544;
 }
 
 i {
