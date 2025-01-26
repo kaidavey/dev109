@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-image: url(images/background.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*White + Black Pieces and Row Settings Kai Davey*/
+.black {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+
+.white {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Title Kai Davey*/
+#title {
+  font-family: 'KolarRegular', sans-serif;
+  font-size: 36px;
+  position: fixed;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  color: #ffd770;
+  background-color: #333;
+  text-align: center;
+  z-index: 10;
+}
+
+/*Chessboard Style Settings Margaret Khamvongsa*/
+
+#container {
+  margin-top: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+/*Footer Kai Davey*/
+footer {
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/*Black Chess Piece Style Settings Margaret Khamvongsa*/
+.imageblackbishop {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images/black-bishop.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.imageblackcastle {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-castle.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackking {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-king.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackknight {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-knight.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackpawn {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-pawn.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imageblackqueen {
+    background-image: url(https://github.com/kaidavey/dev109/blob/main/a2/images//black-queen.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*White Piece Image Adjustments Kai Davey*/
+img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
