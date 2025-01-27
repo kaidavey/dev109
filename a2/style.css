@@ -1,3 +1,4 @@
+/*HTML, BODY Setting Margaret Khamvongsa*/
 html, body {
   height: 100%;
   width: 100%;
@@ -42,6 +43,7 @@ html, body {
   z-index: 10;
 }
 
+/*Background Image Settings Margaret Khamvongsa*/
 #background-image {
     position: fixed;
     top: 0;
@@ -52,14 +54,14 @@ html, body {
     z-index: -1;
 }
 
-/*Chessboard Style Settings Margaret Khamvongsa*/
+/*Containter Settings Margaret Khamvongsa*/
 #container {
   margin-top: 10%;
   margin-left: 0 auto;
   margin-right: 0 auto;
 }
 
-/*Footer Margaret Khamvongsa*/
+/*Footer Settings Margaret Khamvongsa*/
 #footer {
   width: 100%;
   background-color: #333;
@@ -112,6 +114,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
 }
+/* End of Black Chess Piece Style Settings Margaret Khamvongsa*/
 
 /*White Piece Image Adjustments Kai Davey*/
 img {
