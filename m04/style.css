@@ -9,6 +9,11 @@
 body {
 	width: 90%;
 	margin: 0 auto;
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* Nav and Footer Styling*/
@@ -39,7 +44,7 @@ footer {
   margin-bottom: 1em;
   margin: 1%;
   background-color: #d49727;
-  background-image: url('...');
+  background-image: url('butterfly.png');
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -68,7 +73,7 @@ footer {
 
 /*Font Styling*/
 
-#logo {
+.logo {
 	font-family: 'AutobahnRegular';
 	font-weight: normal;
 	font-style: normal;
