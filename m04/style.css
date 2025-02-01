@@ -9,28 +9,28 @@
 body {
 	width: 90%;
 	margin: 0 auto;
-  background-image: url('background.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+	background-image: url('background.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
 /* Nav and Footer Styling*/
 
 li {		
-  display: inline;		
-  padding: 0.5em;
+	display: inline;		
+	padding: 0.5em;
 }
 			
 nav, footer {
-  margin: 1%;
+	margin: 1%;
 	background-color: #d74a49;
 	padding: 0.5em 0;
 }
 
 footer {
-  background-color: #2a223d;
+	background-color: #2a223d;
 }
 
 /*Feature and Column Styling*/
@@ -40,34 +40,34 @@ footer {
 }
 
 #feature {
-  height: 10em;
-  margin-bottom: 1em;
-  margin: 1%;
-  background-color: #d49727;
-  background-image: url('butterfly.png');
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
+	height: 10em;
+	margin-bottom: 1em;
+	margin: 1%;
+	background-color: #d49727;
+	background-image: url('butterfly.png');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
 }
 
 .article {
 	height: 10em;
 	margin-bottom: 1em;
-  width: 31.3%;
+	width: 31.3%;
 	float: left;
 	margin: 1%;
 }
 
 .column1 {
-  background-color: #eaeaea;
+	background-color: #eaeaea;
 }
 
 .column2 {
-  background-color: #8ba0a4;
+	background-color: #8ba0a4;
 }
 
 .column3 {
-  background-color: #215c6e;
+	background-color: #215c6e;
 	margin-right: 0%;
 }
 
@@ -80,5 +80,5 @@ footer {
 }
 
 .altcolor {
-  color: #665544;
+	color: #665544;
 }
