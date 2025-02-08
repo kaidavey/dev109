@@ -26,7 +26,6 @@ var msg = '<h2>Multiplication Table</h2>';
 // Calculate the Multiplication Table
 for (var i = 1; i <= 10; i++) {
   msg += i + ' x ' + num + ' = ' + (i * num) + '<br>';
-  i++;
 }
 
 // Write the message into the page
