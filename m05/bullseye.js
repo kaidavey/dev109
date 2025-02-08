@@ -4,7 +4,7 @@ let num = prompt("Please enter a number");
 var table = num;           // Unit of table
 //var operator = 'addition';
 var i = 1;                 // Set counter to 1
-var msg = '<h2>Multiplication Table</h2><br>';              // Message
+var msg = '<h2>Multiplication Table</h2>';              // Message
 
 /*
 if (operator === 'addition') {
