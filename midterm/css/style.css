@@ -1,1 +1,36 @@
-test
+/* Global Font */
+body {
+  font-family: "Poppins", serif;
+  margins: 0 0 0 0;
+}
+
+/* Title in Header */
+.title {
+  font-weight: 600;
+  font-size: 20;
+  width: 50%;
+  float: left;
+}
+
+/* Header Formatting */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #d74a49;
+  z-index: 1;
+}
+
+/* Navigation Bar in Header */
+nav {
+  width: 50%;
+  float: left;
+}
+
+/* List Items in Navigation Bar */
+.nav {
+  display: inline;
+  padding: 0.5em;
+}
