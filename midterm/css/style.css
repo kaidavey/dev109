@@ -20,13 +20,16 @@ body {
     background-color: #7ac8cc;
 }
 .modules {
-    background-color: #61e294;
+    background-color: #7cb1ec;
 }
 .contact {
     background-color: #d34f73;
 }
 .designs {
     background-color: #62d1b4;
+}
+.validated {
+    background-color: #61e294;
 }
 
 /* Header Formatting */
