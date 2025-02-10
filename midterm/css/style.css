@@ -51,7 +51,7 @@ a.nav:hover {
 /* Content Styling */
 .content {
     height: 200vh;
-    background-image: url('images/paper.png');
+    background-image: url('cork.jpg');
     background-size: contain;
     background-repeat: repeat-y;
 }
