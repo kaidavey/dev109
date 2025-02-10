@@ -50,8 +50,9 @@ a.nav:hover {
 
 /* Content Styling */
 .content {
+    width: 100%;
     height: 200vh;
-    background-image: url('cork.jpg');
+    background-image: url('../images/corkboard.jpg');
     background-size: contain;
     background-repeat: repeat-y;
 }
