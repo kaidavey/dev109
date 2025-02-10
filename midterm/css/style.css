@@ -6,6 +6,29 @@ body {
     padding: 0;
 }
 
+/* Page Specific Heading Color */
+.home {
+    background-color: #e97a5b;
+}
+.about {
+    background-color: #b47aea;
+}
+.courses {
+    background-color: #c74e58;
+}
+.artifacts {
+    background-color: #7ac8cc;
+}
+.modules {
+    background-color: #61e294;
+}
+.contact {
+    background-color: #d34f73;
+}
+.designs {
+    background-color: #62d1b4;
+}
+
 /* Header Formatting */
 header {
     display: flex;
@@ -13,7 +36,6 @@ header {
     justify-content: center;
     width: 100%;
     height: 60px;
-    background-color: #e97a5b;
 }
 .heading {
     display: inline;
@@ -32,7 +54,6 @@ nav {
     justify-content: center;
     width: 100%;
     height: 40px;
-    background-color: #e97a5b;
 }
 li.nav {
     display: inline;
