@@ -53,6 +53,6 @@ a.nav:hover {
     width: 100%;
     height: 200vh;
     background-image: url('../images/corkboard.jpg');
-    background-size: contain;
-    background-repeat: repeat-y;
+    background-size: auto;
+    background-repeat: repeat;
 }
