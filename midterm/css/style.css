@@ -6,39 +6,14 @@ body {
     padding: 0;
 }
 
-/* Page Specific Heading Color */
-.home {
-    background-color: #e97a5b;
-}
-.about {
-    background-color: #b47aea;
-}
-.courses {
-    background-color: #c74e58;
-}
-.artifacts {
-    background-color: #7ac8cc;
-}
-.modules {
-    background-color: #7cb1ec;
-}
-.contact {
-    background-color: #d34f73;
-}
-.designs {
-    background-color: #62d1b4;
-}
-.validated {
-    background-color: #61e294;
-}
-
-/* Header Formatting */
+/* Page Title Styling */
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 60px;
+    z-index: 10;
 }
 .heading {
     display: inline;
@@ -48,7 +23,7 @@ header {
     padding: 0 0.3em;
 }
 
-/* Navigation Bar Formatting */
+/* Navigation Bar Styling */
 nav {
     position: sticky;
     top: 0;
@@ -57,6 +32,7 @@ nav {
     justify-content: center;
     width: 100%;
     height: 40px;
+    z-index: 10;
 }
 li.nav {
     display: inline;
@@ -72,11 +48,23 @@ a.nav:hover {
     color: white;
 }
 
-/* Content Styling */
+/* Background Image Styling */
 .content {
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background-image: url('../images/corkboard.jpg');
     background-size: contain;
     background-repeat: repeat;
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    height: 60px;
+}
+.credits {
+    text-align: center;
+    font-size: 12px;
+    padding: 1em;
+    margin: 0;
 }
