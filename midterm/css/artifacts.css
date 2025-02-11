@@ -1,19 +1,23 @@
 @import url("style.css");
 
+/* Header Color */
+.artifacts {
+    background-color: #7ac8cc;
+}
+
 /* Sticky Note Formatting Within Div */
 .note {
     display: flex;
     justify-content: center;
     float: left;
     width: 30%;
-    height: 30%;
     margin: 1.5%;
     background-image: url('../images/stickynote.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-/* Sticky Note Contents Formatting */
+/* Artifact Content Inside Sticky Notes Styling */
 figure {
     padding-top: 15%;
 }
