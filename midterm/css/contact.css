@@ -1,0 +1,34 @@
+@import url("style.css");
+
+/* Header Color */
+.contact {
+    background-color: #d34f73;
+}
+
+/* Form Container Styling */
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* Form Positioning */
+form {
+    position: absolute;
+}
+
+/* Taped Paper Background Image Styling */
+.paper {
+    width: 70%;
+}
+
+/* Font Styling for Form */
+.label {
+    font-size: 14px;
+}
+
+/* Contact Message Styling */
+.msg {
+    display: block;
+}
