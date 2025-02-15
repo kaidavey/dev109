@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Formatting */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    background-color: darkolivegreen;
+}
+
+/* Title Formatting */
+#title {
+    font-family: "Domine", serif;
+    color: bisque;
+}
+
+/* Text Input Section Formatting */
+fieldset {
+    margin: 1%;
+}
+
+/* Split Content Into Left and Right */
+#lContent, #rContent {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+}
+
+/* Align p Elements Next to Each Other */
+p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+/* All Symbols in Left Div Float to Right */
+.left {
+    float: right;
+}
+
+/* All Symbols in Right Div Float to Left */
+.right {
+    float: left;
+}
