@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Week 6 Rhombus Assignment">
+    <meta charset="utf-8">
+    <title>A3 - Rhombus</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" type="text/css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Kai Davey</h1>
+    </header>
+    <div id="container">
+        <fieldset>
+            <legend>Create a Rhombus</legend>
+            <label for="height">What is the size of the Rhombus?</label>
+            <input id="height" type="text" value="5" size="5"><br>
+            <label for="evenColor">Choose a color for the even position:</label>
+            <select id="evenColor">
+                <option value="indigo">Indigo</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select><br>
+            <label for="oddColor">Choose a color for the odd position:</label>
+            <select id="oddColor">
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+                <option value="magenta">Magenta</option>
+            </select><br>
+            <label for="symbol">Choose a symbol:</label>
+            <select id="symbol">
+                <option value="*">*</option>
+                <option value="#">#</option>
+                <option value="'">'</option>
+            </select><br><br>
+            <button onclick="createRhombus(
+            document.getElementById('height').value,
+            document.getElementById('symbol').value,
+        );">Create</button>
+        </fieldset>
+        <div id="lContent"></div>
+        <div id="rContent"></div>
+    </div> <!-- End of Container -->
+    <script src="script.js"></script>
+</body>
+</html>
