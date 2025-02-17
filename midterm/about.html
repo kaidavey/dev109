@@ -25,10 +25,21 @@
     </ul>
   </nav>
   <div class="content">
-    
+    <div class="bday">
+      <p>Kai's birthday is July 22, 2007. How far away is yours?</p>
+      <form>
+        <label for="birthday">Enter your birthday:</label>
+        <input id="birthday" type="date" name="birthdate"><br><br>
+        <button onclick="calculateDifference(
+                document.getElementById('birthday').value
+        )">Calculate</button>
+      </form>
+      <div id="message"></div> <!-- End of Message -->
+    </div> <!-- End of Birthday Container -->
   </div> <!-- End of Content -->
   <footer class="about">
     <p class="credits">Copyright &copy; 2025</p>
   </footer>
+  <script src="js/about.js"></script>
 </body>
 </html>

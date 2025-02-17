@@ -4,3 +4,19 @@
 .about {
     background-color: #b47aea;
 }
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bday {
+    overflow-clip: text;
+    background-color: #b47aea;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}

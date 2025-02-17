@@ -14,7 +14,7 @@ var createSymbol = function(symbol, evenOdd, leftRight) {
     sym.style.color = document.getElementById(evenOdd + 'Color').value;
 
     // Add the created element to left/right div
-    if (leftRight == 'left') {
+    if (leftRight === 'left') {
         lContent.appendChild(sym);
     } else {
         rContent.appendChild(sym);
@@ -26,7 +26,7 @@ var createBreak = function(leftRight) {
     var br = document.createElement('br');
 
     // Add the created element to left/right div
-    if (leftRight == 'left') {
+    if (leftRight === 'left') {
         lContent.appendChild(br);
     } else {
         rContent.appendChild(br);
@@ -50,7 +50,7 @@ function createRhombus(height, symbol) {
 function createBottom(height, symbol, leftRight) {
     for (var i = height; i > 0; i--) {
         for (var j = 0; j < i; j++) {
-            if (j % 2 == 0) {
+            if (j % 2 === 0) {
                 createSymbol(symbol, 'even', leftRight);
             } else {
                 createSymbol(symbol, 'odd', leftRight);
@@ -65,7 +65,7 @@ function createBottom(height, symbol, leftRight) {
 function createTop(height, symbol, leftRight) {
     for (var i = 1; i <= height; i++) {
         for (var j = 0; j < i; j++) {
-            if (j % 2 == 0) {
+            if (j % 2 === 0) {
                 createSymbol(symbol, 'even', leftRight);
             } else {
                 createSymbol(symbol, 'odd', leftRight);
