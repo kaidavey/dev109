@@ -10,16 +10,6 @@ if (num == null || isNaN(num) || num < 0 || num > 10) {
   num = 0;
 }
 
-/*
-if (operator === 'addition') {
-  // Do addition
-  while (i < 11) {
-    msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
-    i++;
-  }
-} else {
-*/
-
 // Declare the message
 var msg = '<h2>Multiplication Table</h2>';
 
