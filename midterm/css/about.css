@@ -5,18 +5,23 @@
     background-color: #b47aea;
 }
 
-.content {
+/* Form Container Styling */
+.bday {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
 }
 
-.bday {
-    overflow-clip: text;
-    background-color: #b47aea;
+/* Taped Paper Background Image Styling */
+.paper {
+    width: 70%;
 }
 
-p {
-    padding: 0;
-    margin: 0;
+form {
+    position: absolute;
+}
+
+p.msg {
+    position: absolute;
 }

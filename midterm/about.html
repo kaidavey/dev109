@@ -26,15 +26,16 @@
   </nav>
   <div class="content">
     <div class="bday">
-      <p>Kai's birthday is July 22, 2007. How far away is yours?</p>
+      <img src="images/tapedpaper.png" alt="Taped Paper Form Background" class="paper">
       <form>
-        <label for="birthday">Enter your birthday:</label>
+        <p>I will graduate from college in 2029. When will you?</p>
+        <label for="birthday">Enter your graduation date:</label>
         <input id="birthday" type="date" name="birthdate"><br><br>
         <button onclick="calculateDifference(
                 document.getElementById('birthday').value
         )">Calculate</button>
+        <p id="result"></p>
       </form>
-      <div id="message"></div> <!-- End of Message -->
     </div> <!-- End of Birthday Container -->
   </div> <!-- End of Content -->
   <footer class="about">
