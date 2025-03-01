@@ -1,0 +1,28 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    background-image: url("../images/mountains.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    background-color: rgb(256, 256, 256, 0.5);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    width: 30%;
+    padding: 20px 4%;
+    margin: 4%;
+    border-radius: 20px;
+}
+
+/* All warnings are red and bold */
+.warning {
+    color: red;
+    font-size: 10pt;
+    font-weight: 700;
+}
