@@ -10,6 +10,10 @@ body {
 /* Responsive page rules at bottom of style sheet */
 
 h1 {
+    background-image: url(../images/kinglogo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 65%;
     text-align: center;
     text-indent: -1000%;
     height: 75px;
@@ -72,12 +76,6 @@ li {
     text-shadow: 2px 2px 1px #3b6a5e;
     border-top: 1px solid #7ee0c9;
     border-bottom: 1px solid #3b6a5e;}
-
-.complete {
-    background-color: #999;
-    color: #fff;
-    border-top: 1px solid #666;
-    text-shadow: 2px 2px 1px #333;}
 
 li a {
     color: #fff;
