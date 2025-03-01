@@ -11,9 +11,8 @@ body {
 }
 
 #container {
-    background-color: rgb(256, 256, 256, 0.5);
+    background-color: rgb(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
     width: 30%;
     padding: 20px 4%;
     margin: 4%;

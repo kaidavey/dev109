@@ -5,19 +5,36 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-#container {
-    background-color: rgb(256, 256, 256, 0.5);
+.container {
+    background-color: rgb(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    width: 30%;
+    width: 40%;
     padding: 20px 4%;
-    margin: 4%;
+    margin: 4% auto;
     border-radius: 20px;
+}
+#input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#checker {
+    height: 60vh;
+}
+
+figure {
+    float: left;
+    width: 40%;
+    margin: 5%;
+}
+img {
+    width: 100%;
+}
+a {
+    color: black;
+    font-size: 10pt;
 }
 
 /* All warnings are red and bold */
