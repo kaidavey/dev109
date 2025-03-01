@@ -92,6 +92,11 @@ p {
     min-width: 20%;
     max-width: 80%; }
 
+#slack {
+    width: 70%;
+    margin: 50px 15%;
+}
+
 #scriptResults {
     padding-bottom: 10px;}
 
