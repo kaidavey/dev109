@@ -22,14 +22,14 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-#checker {
-    height: 65vh;
+#validations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* Image and Caption Formatting */
 figure {
     float: left;
-    width: 40%;
     margin: 5%;
 }
 img {
