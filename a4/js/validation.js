@@ -131,7 +131,7 @@ function username() {
         errorMsg += "<p>Username is required.</p>";
         console.log("Invalid username: no input");
     } else if (username.length > 12) {
-        errorMsg += "<p>Username must be 12 characters or less.</p>";
+        errorMsg += "<p>Username must be 12 characters or fewer.</p>";
         console.log("Invalid username: length");
     } else {
         console.log("Valid username");
@@ -142,12 +142,16 @@ function username() {
 function password() {
     var password = document.getElementById("password").value;
     var errorMsg = "";
+    var regularExp = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).{8,}$/;
     if (password === null || password === "") {
         errorMsg += "<p>Password is required.</p>";
         console.log("Invalid password: no input");
-    } else if (username.length > 7) {
-        errorMsg += "<p>Username must be 7 characters or less.</p>";
+    } else if (password.length > 7) {
+        errorMsg += "<p>Password must be 7 characters or fewer.</p>";
         console.log("Invalid password: length");
+    } else if (!regularExp.test(password)) {
+        errorMsg += "<p>Password requires at least 1 UPPER, 1 lower, 1 number, and 1 special character.</p>";
+        console.log("Invalid password: special formatting");
     } else {
         console.log("Valid password");
     }
