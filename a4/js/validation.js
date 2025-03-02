@@ -142,7 +142,7 @@ function username() {
 function password() {
     var password = document.getElementById("password").value;
     var errorMsg = "";
-    var regularExp = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).{8,}$/;
+    var regularExp = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_])/;
     if (password === null || password === "") {
         errorMsg += "<p>Password is required.</p>";
         console.log("Invalid password: no input");
