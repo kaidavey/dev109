@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Click anywhere on the screen to draw a dot. Erase it with the clear button.">
+  <meta charset="utf-8">
+  <title>M09 - DOM Event Listeners</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<div id="controls">
+  <form id="form">
+    <p>
+      <label for="color">Choose a color:</label>
+      <select id="color" name="color">
+        <option value="seagreen">Sea Green</option>
+        <option value="aqua">Aqua</option>
+        <option value="salmon">Salmon</option>
+        <option value="mediumvioletred">Magenta</option>
+        <option value="orangered">Orange</option>
+      </select>
+    </p>
+    <p>
+      <label for="size">Choose a size:</label>
+      <select id="size" name="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </p>
+    <p>
+      <input type="submit" value="Apply">
+    </p>
+  </form>
+  <p>
+    <button id="clear">Clear</button>
+  </p>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

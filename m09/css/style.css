@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    background: beige;
+}
+
+#controls {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    margin: 0;
+    background-color: darkkhaki;
+}
+
+.dot {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: seagreen;
+}
