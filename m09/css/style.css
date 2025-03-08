@@ -5,6 +5,7 @@ body {
     background: beige;
 }
 
+/* Control Panel formatting */
 #controls {
     width: max-content;
     height: max-content;
@@ -13,10 +14,7 @@ body {
     background-color: darkkhaki;
 }
 
+/* Dot Styling */
 .dot {
     position: absolute;
-    height: 8px;
-    width: 8px;
-    border-radius: 4px;
-    background-color: seagreen;
 }

@@ -1,3 +1,10 @@
+// Global Dot Variables
+// These are used to create new dots. So when a user changes their dot settings,
+// it doesn't change for all the dots on the page, just the new ones they create.
+var dotColor = "seagreen";
+var dotSize = "8px";
+var dotBorderRadius = "4px";
+
 // Function and Event listener to clear dots
 function clearDots(e) {
     // Get all dot elements
@@ -30,6 +37,10 @@ document.addEventListener("click", function(e) {
         dot.className = "dot";
         dot.style.left = (e.clientX - 4) + "px";
         dot.style.top = (e.clientY - 4) + "px";
+        dot.style.backgroundColor = dotColor;
+        dot.style.width = dotSize;
+        dot.style.height = dotSize;
+        dot.style.borderRadius = dotBorderRadius;
         document.body.appendChild(dot);
     }
 });
@@ -41,32 +52,26 @@ controlPanel.addEventListener("click", function(e) {
     e.stopPropagation();
 });
 
+
 // Event Listener and Function to give functionality to the form
 var form = document.getElementById("form");
 form.addEventListener("submit", function(e) {
     // Prevents the form from reloading the page
     e.preventDefault();
 
-    // Create variables for dots, color, and size
-    var dots = document.getElementsByClassName("dot");
-    var color = e.target.color.value;
+    // Establish dot color from form input and create var for input size
+    dotColor = e.target.color.value;
     var size = e.target.size.value;
 
-    // Loop through all dots to apply the new styles
-    for (var i = 0; i < dots.length; i++) {
-        dots[i].style.background = color;
-        if (size === "small") {
-            dots[i].style.height = "8px";
-            dots[i].style.width = "8px";
-            dots[i].style.borderRadius = "4px";
-        } else if (size === "medium") {
-            dots[i].style.height = "16px";
-            dots[i].style.width = "16px";
-            dots[i].style.borderRadius = "8px";
-        } else {
-            dots[i].style.height = "32px";
-            dots[i].style.width = "32px";
-            dots[i].style.borderRadius = "16px";
-        }
+    // Check which size the user inputted, then set according global variables
+    if (size === "small") {
+        dotSize = "8px";
+        dotBorderRadius = "4px";
+    } else if (size === "medium") {
+        dotSize = "16px";
+        dotBorderRadius = "8px";
+    } else {
+        dotSize = "32px";
+        dotBorderRadius = "16px";
     }
 });
