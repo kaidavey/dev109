@@ -35,8 +35,20 @@ document.addEventListener("click", function(e) {
     if (!controlPanel.contains(e.target)) {
         var dot = document.createElement("div");
         dot.className = "dot";
-        dot.style.left = (e.clientX - 4) + "px";
-        dot.style.top = (e.clientY - 4) + "px";
+
+        // Change the exact location of the dot based on what size the dot is,
+        // ensuring the center of the dot is where the user clicked.
+        if (dotSize === "8px") {
+            dot.style.left = (e.clientX - 4) + "px";
+            dot.style.top = (e.clientY - 4) + "px";
+        } else if (dotSize === "16px") {
+            dot.style.left = (e.clientX - 8) + "px";
+            dot.style.top = (e.clientY - 8) + "px";
+        } else {
+            dot.style.left = (e.clientX - 16) + "px";
+            dot.style.top = (e.clientY - 16) + "px";
+        }
+
         dot.style.backgroundColor = dotColor;
         dot.style.width = dotSize;
         dot.style.height = dotSize;
