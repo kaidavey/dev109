@@ -1,4 +1,4 @@
-var imgs = document.getElementsByTagName("img");
+var imgs = document.getElementsByTagName("figure");
 var timer = document.getElementById("timer");
 var currImg = 0;
 var currTime = 4;
@@ -29,7 +29,9 @@ function resetTimer() {
 
 function resetInterval() {
     clearInterval(interval);
+    clearInterval(countdown);
     interval = setInterval(nextImage, 4000);
+    countdown = setInterval(updateTimer, 1000);
 }
 
 function previousImage() {
