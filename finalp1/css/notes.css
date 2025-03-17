@@ -2,12 +2,13 @@
 .note {
     display: flex;
     justify-content: center;
-    float: left;
+    float: left !important;
     width: 30%;
-    margin: 1.5%;
+    margin: 1.66%;
     background-image: url('../images/stickynote.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center top;
 }
 
 /* Artifact Content Inside Sticky Notes Styling */
@@ -16,7 +17,7 @@ figure {
 }
 .thumbnail {
     width: 100%;
-    padding: 0.5em;
+    padding-top: 0.5em;
 }
 figcaption {
     text-align: center;
