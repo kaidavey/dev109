@@ -1,39 +1,7 @@
 @import url("style.css");
+@import url("notes.css");
 
 /* Header Color */
 .artifacts {
     background-color: #7ac8cc;
-}
-
-/* Sticky Note Formatting Within Div */
-.note {
-    display: flex;
-    justify-content: center;
-    float: left;
-    width: 30%;
-    margin: 1.5%;
-    background-image: url('../images/stickynote.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* Artifact Content Inside Sticky Notes Styling */
-figure {
-    padding-top: 15%;
-}
-.thumbnail {
-    width: 100%;
-    padding: 0.5em;
-}
-figcaption {
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    color: black;
-}
-.subcaption {
-    text-align: left;
-    font-size: 14px;
-    font-weight: 300;
-    color: black;
 }
