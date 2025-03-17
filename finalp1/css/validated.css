@@ -1,0 +1,66 @@
+@import url("style.css");
+
+/* Header Color */
+.validated {
+    background-color: #61e294;
+}
+
+/* Back to Top Button Div Formatting */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+}
+#arrow {
+    width: 45px;
+    height: 45px;
+}
+
+/* Extending Page Vertical Height */
+.content {
+    height: 330vh;
+}
+
+/* Left and Right Column Styling */
+.col {
+    float: left;
+    width: 50%;
+}
+
+/* Styling for Left Column Images and Captions */
+figure.left {
+    clear: both;
+    padding: 1% 2%;
+    margin-left: 30%;
+    background-color: #7ac8cc;
+    float: right;
+}
+
+/* Styling for Right Column Images and Captions */
+figure.right {
+    clear: both;
+    padding: 1% 2%;
+    margin-right: 30%;
+    background-color: #e49546;
+    float: left;
+}
+
+/* Special Styling for Top Figures */
+figure.top {
+    margin-top: 6%;
+}
+
+/* Make Sure Image Covers Entire Figure */
+img {
+    width: 100%;
+}
+
+/* Caption Formatting */
+figcaption {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 3%;
+}

@@ -1,0 +1,27 @@
+@import url("style.css");
+
+/* Header Color */
+.about {
+    background-color: #b47aea;
+}
+
+/* Form Container Styling */
+.bday {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* Taped Paper Background Image Styling */
+.paper {
+    width: 70%;
+}
+
+form {
+    position: absolute;
+}
+
+p.msg {
+    position: absolute;
+}
