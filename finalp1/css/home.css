@@ -6,33 +6,25 @@
 }
 
 .page {
+    display: block;
     width: 80%;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 4%;
     margin: 35px auto;
-    background-image: url("../images/sticker-page.png");
+    background-image: url("../images/blank-page.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-}
-
-.page-content {
-    margin: 10px auto;
+    overflow: hidden;
 }
 
 #heading {
-    position: relative;
-    top: 5%;
     text-align: center;
 }
-#bio {
-    position: relative;
-    margin: 10px 8%;
-    top: 8%;
-}
-.fun-fact {
-    position: relative;
-    top: 10%;
+.activities {
+    clear: left;
     width: 65%;
-    float: right;
-    margin-right: 4%;
+}
+#olympic {
+    float: right !important;
 }

@@ -72,3 +72,15 @@ footer {
     padding: 1em;
     margin: 0 auto;
 }
+
+.sticker {
+    width: 150px;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.sticker:hover {
+    transform: translateY(-5px);
+}
