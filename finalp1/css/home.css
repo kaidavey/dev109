@@ -7,8 +7,7 @@
 
 .page {
     display: block;
-    width: 80%;
-    min-height: 100vh;
+    width: 50%;
     padding: 4%;
     margin: 35px auto;
     background-image: url("../images/blank-page.png");
