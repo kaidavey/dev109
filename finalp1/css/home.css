@@ -21,10 +21,16 @@
 #heading {
     text-align: center;
 }
+#fact {
+    margin-top: 40px;
+}
 .activities {
+    float: left;
     clear: left;
-    width: 65%;
+    width: 70%;
 }
 #olympic {
-    float: right !important;
+    float: right;
+    width: 180px;
+    height: auto;
 }
