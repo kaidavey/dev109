@@ -9,7 +9,7 @@ body {
 }
 
 /* Blurred Containers and Div Settings */
-.container {
+.paper {
     background-color: rgb(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
     width: 40%;

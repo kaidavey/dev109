@@ -5,31 +5,24 @@
     background-color: #e97a5b;
 }
 
-.page {
-    display: block;
-    width: 50%;
-    padding: 3%;
-    margin: 35px auto;
-    background-image: url("../images/blank-page.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    overflow: hidden;
+/* Form Container Styling */
+.paper {
+    position: relative;
+    width: 60%;
+    min-height: 80vh;
+    padding: 0 12% 5% 10%;
+    margin: 0 10%;
+    background: url("../images/tapedpaper.png") no-repeat center/contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#heading {
-    text-align: center;
-}
-#fact {
-    margin-top: 30px;
-}
-.activities {
-    float: left;
-    clear: left;
-    width: 70%;
-}
-#olympic {
-    float: right;
-    width: 180px;
-    height: auto;
+#emoji {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 19%;
+    top: 14%;
 }

@@ -5,3 +5,7 @@
 .modules {
     background-color: #7cb1ec;
 }
+
+.note {
+    background-image: url('../images/blue-stickynote.png');
+}
