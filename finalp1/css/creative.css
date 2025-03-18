@@ -20,3 +20,12 @@
 #heading {
     text-align: center;
 }
+
+.logos {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+.merch {
+    width: 20%;
+}
