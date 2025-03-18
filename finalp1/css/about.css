@@ -10,7 +10,7 @@
     width: 50%;
     padding: 3%;
     margin: 35px auto;
-    background-image: url("../images/blank-page.png");
+    background-image: url("../images/page-greenpin.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -23,10 +23,14 @@
 #fact {
     margin-top: 30px;
 }
-.activities {
+.goals {
     float: left;
     clear: left;
     width: 70%;
+}
+p.goals {
+    padding: 0;
+    margin: 0;
 }
 #olympic {
     float: right;

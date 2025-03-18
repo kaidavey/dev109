@@ -1,0 +1,22 @@
+@import url("style.css");
+
+/* Header Color */
+.designs {
+    background-color: #62d1b4;
+}
+
+.page {
+    display: block;
+    width: 50%;
+    padding: 3%;
+    margin: 35px auto;
+    background-image: url("../images/page-pinkpin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    overflow: hidden;
+}
+
+#heading {
+    text-align: center;
+}
