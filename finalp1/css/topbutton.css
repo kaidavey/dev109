@@ -1,0 +1,21 @@
+/* Back to Top Button Div Formatting */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+}
+/* Button Element Styling */
+#toTopButton {
+    padding: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* Double Arrow Image Styling */
+#arrow {
+    width: 45px;
+    height: 45px;
+}

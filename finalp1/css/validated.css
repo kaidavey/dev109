@@ -3,26 +3,6 @@
     background-color: #61e294;
 }
 
-/* Back to Top Button Div Formatting */
-#backToTop {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 15px;
-}
-#toTopButton {
-    padding: 0;
-    background: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-#arrow {
-    width: 45px;
-    height: 45px;
-}
-
 /* Extending Page Vertical Height */
 .content {
     height: 330vh;
