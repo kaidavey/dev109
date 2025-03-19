@@ -19,6 +19,16 @@ body {
     background-attachment: fixed;
 }
 
+h2 {
+    font-size: 18pt;
+}
+h3 {
+    font-size: 14pt;
+}
+p {
+    font-size: 12pt;
+}
+
 /* Top Section of the Page Styling */
 header {
     display: flex;
