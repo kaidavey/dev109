@@ -33,7 +33,7 @@ header {
     display: inline;
     font-family: "Pixelify Sans", serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30pt;
     padding: 0 0.3em;
 }
 
@@ -93,4 +93,24 @@ footer {
     font-size: 12px;
     padding: 1em;
     margin: 0 auto;
+}
+
+/* For screens smaller than 900 */
+@media (max-width: 900px) {
+    .heading {
+        font-size: 26pt;
+    }
+    h2 {
+        font-size: 14pt;
+    }
+    h3 {
+        font-size: 11pt;
+    }
+    p {
+        font-size: 9pt;
+    }
+    .sticker {
+        width: 100px !important;
+        height: auto !important;
+    }
 }

@@ -35,3 +35,13 @@ figcaption {
     font-weight: 300;
     color: black;
 }
+
+/* For screens smaller than 900 */
+@media (max-width: 900px) {
+    .note {
+        height: 430px;
+    }
+    figure {
+        padding-top: 20%;
+    }
+}

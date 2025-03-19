@@ -3,6 +3,12 @@
     background-color: #e97a5b;
 }
 
+/* Audio Player Styling */
+audio {
+    position: absolute;
+    transform: translateY(340%);
+}
+
 /* Spinning Emoji Styling */
 #emoji {
     position: absolute;
