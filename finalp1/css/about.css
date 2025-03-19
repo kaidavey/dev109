@@ -3,6 +3,7 @@
     background-color: #b47aea;
 }
 
+/* Green Pin Page Background */
 .page {
     display: block;
     width: 50%;
@@ -15,6 +16,7 @@
     overflow: hidden;
 }
 
+/* Text Elements on Page Styling */
 #heading {
     text-align: center;
 }
@@ -34,4 +36,15 @@ p.goals {
     float: right;
     width: 180px;
     height: auto;
+}
+.bc-blurb {
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+h3.bc-blurb {
+    margin-top: 30px;
 }
