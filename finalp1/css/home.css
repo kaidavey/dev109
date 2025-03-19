@@ -6,16 +6,16 @@
 /* Audio Player Styling */
 audio {
     position: absolute;
-    transform: translateY(340%);
+    transform: translateY(345%);
 }
 
 /* Spinning Emoji Styling */
 #emoji {
     position: absolute;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     left: 19%;
-    top: 14%;
+    top: 15%;
     animation: spin 6s linear infinite;
 }
 
