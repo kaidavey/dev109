@@ -1,6 +1,25 @@
-@import url("style.css");
-
 /* Header Color */
 .courses {
     background-color: #c74e58;
+}
+
+/* Change alignment of text on the paper background */
+.paper {
+    align-items: normal !important;
+    text-align: left !important;
+}
+
+/* Title Styling */
+#title {
+    text-align: center;
+    margin-top: 0;
+}
+/* Course Text Elements Styling */
+.inside-el {
+    padding: 0;
+    margin: 5px 0;
+}
+/* Alter Boldness of the Course title, instructor, and catalog */
+.bold {
+    font-weight: 600;
 }

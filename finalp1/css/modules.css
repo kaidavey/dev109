@@ -1,11 +1,9 @@
-@import url("style.css");
-@import url("notes.css");
-
 /* Header Color */
 .modules {
     background-color: #7cb1ec;
 }
 
+/* Give Sticky notes a different colored background */
 .note {
-    background-image: url('../images/green-stickynote.png');
+    background-image: url('../images/green-stickynote.png') !important;
 }

@@ -1,11 +1,9 @@
-@import url("style.css");
-@import url("paper.css");
-
 /* Header Color */
 .home {
     background-color: #e97a5b;
 }
 
+/* Spinning Emoji Styling */
 #emoji {
     position: absolute;
     width: 130px;
@@ -15,6 +13,7 @@
     animation: spin 6s linear infinite;
 }
 
+/* Spin Animation */
 @keyframes spin {
     from {
         transform: rotate(0deg);

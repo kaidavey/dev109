@@ -12,20 +12,23 @@
     background-position: center top;
 }
 
-/* Artifact Content Inside Sticky Notes Styling */
+/* Pad the top of the Image + caption */
 figure {
     padding-top: 15%;
 }
+/* Image Styling */
 .thumbnail {
     width: 100%;
     padding-top: 0.5em;
 }
+/* Styling for the Caption Heading */
 figcaption {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
     color: black;
 }
+/* Styling for the Caption */
 .subcaption {
     text-align: left;
     font-size: 14px;
