@@ -1,21 +1,9 @@
 @import url("style.css");
+@import url("paper.css");
 
 /* Header Color */
 .contact {
     background-color: #d34f73;
-}
-
-/* Message Container Styling */
-.message {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-}
-
-/* Taped Paper Background Image Styling */
-.paper {
-    width: 70%;
 }
 
 /* Thank You Message Styling */

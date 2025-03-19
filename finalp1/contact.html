@@ -25,21 +25,32 @@
         </ul>
     </nav>
     <div class="content">
-        <div class="field">
-            <img src="images/tapedpaper.png" alt="Taped Paper Form Background" class="paper">
-            <form action="thankyou.html" method="get" name="myContact">
-                <label for="name" class="label">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
-                <label for="email" class="label">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="comment" class="label msg">Comment:</label>
-                <textarea id="comment" name="comment" rows="6" cols="60"></textarea><br><br>
-                <input type="submit" value="Submit">
+        <div class="paper">
+            <form action="thankyou.html" method="get" name="myContact" id="form">
+                <p>
+                    <label for="name" class="label">Name:</label>
+                    <input type="text" id="name" name="name">
+                </p>
+                <div id="nameErr"></div>
+                <p>
+                    <label for="email" class="label">Email:</label>
+                    <input type="email" id="email" name="email">
+                </p>
+                <div id="emailErr"></div>
+                <p>
+                    <label for="comment" class="label msg">Comment:</label>
+                    <textarea id="comment" name="comment" rows="6" cols="60"></textarea>
+                </p>
+                <div id="commentErr"></div>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
             </form>
         </div>
     </div> <!-- End of Content -->
     <footer class="contact">
         <p class="credits">Copyright &copy; 2025</p>
     </footer>
+<script src="scripts/formValidation.js"></script>
 </body>
 </html>

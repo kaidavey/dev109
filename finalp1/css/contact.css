@@ -1,26 +1,9 @@
 @import url("style.css");
+@import url("paper.css");
 
 /* Header Color */
 .contact {
     background-color: #d34f73;
-}
-
-/* Form Container Styling */
-.field {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-}
-
-/* Form Positioning */
-form {
-    position: absolute;
-}
-
-/* Taped Paper Background Image Styling */
-.paper {
-    width: 70%;
 }
 
 /* Font Styling for Form */
@@ -31,4 +14,12 @@ form {
 /* Contact Message Styling */
 .msg {
     display: block;
+}
+
+.err {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: red;
 }

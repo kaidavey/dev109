@@ -1,0 +1,13 @@
+/* Form Container Styling */
+.paper {
+    position: relative;
+    width: 60%;
+    min-height: 80vh;
+    padding: 0 12% 5% 10%;
+    margin: 0 10%;
+    background: url("../images/tapedpaper.png") no-repeat center/contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

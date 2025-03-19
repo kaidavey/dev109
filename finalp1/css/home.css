@@ -1,22 +1,9 @@
 @import url("style.css");
+@import url("paper.css");
 
 /* Header Color */
 .home {
     background-color: #e97a5b;
-}
-
-/* Form Container Styling */
-.paper {
-    position: relative;
-    width: 60%;
-    min-height: 80vh;
-    padding: 0 12% 5% 10%;
-    margin: 0 10%;
-    background: url("../images/tapedpaper.png") no-repeat center/contain;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #emoji {
@@ -25,4 +12,14 @@
     height: 130px;
     left: 19%;
     top: 14%;
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
