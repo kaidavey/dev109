@@ -5,5 +5,5 @@
 
 /* Give Sticky notes a different colored background */
 .note {
-    background-image: url('../images/green-stickynote.png') !important;
+    background-image: url('../images/stickynote-green.png') !important;
 }
