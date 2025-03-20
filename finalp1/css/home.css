@@ -6,7 +6,8 @@
 /* Audio Player Styling */
 audio {
     position: absolute;
-    transform: translateY(345%);
+    transform: translateY(460%);
+    height: 40px;
 }
 
 /* Spinning Emoji Styling */
@@ -15,7 +16,7 @@ audio {
     width: 120px;
     height: 120px;
     left: 19%;
-    top: 15%;
+    top: 16%;
     animation: spin 6s linear infinite;
 }
 
