@@ -105,6 +105,31 @@ footer {
     margin: 0 auto;
 }
 
+/* For screens smaller than 1100 */
+@media (max-width: 1100px) {
+    .heading {
+        font-size: 28pt;
+    }
+    h2 {
+        font-size: 16pt;
+    }
+    h3 {
+        font-size: 12pt;
+    }
+    p {
+        font-size: 9pt;
+    }
+    .sticker {
+        width: 100px !important;
+        height: auto !important;
+    }
+    #olympic {
+        width: 120px !important;
+    }
+    #emoji {
+        width: 80px !important;
+    }
+}
 /* For screens smaller than 900 */
 @media (max-width: 900px) {
     .heading {
