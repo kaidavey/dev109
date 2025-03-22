@@ -13,10 +13,10 @@ audio {
 /* Spinning Emoji Styling */
 #emoji {
     position: absolute;
-    width: 120px;
-    height: 120px;
-    left: 19%;
-    top: 16%;
+    width: 100px;
+    height: 100px;
+    left: 20%;
+    top: 15%;
     animation: spin 6s linear infinite;
 }
 
