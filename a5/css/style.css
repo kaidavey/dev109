@@ -20,7 +20,7 @@ body {
 /* Styling for the Countdown text */
 #count {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     color: #bfb99e;
 }
 
@@ -54,7 +54,7 @@ body {
     padding-right: 10px;
 }
 /* Previous and Next Button Styling */
-#prev, #next {
+#prev, #next, #toggle {
     float: right;
     cursor: pointer;
     padding: 5px 15px;
@@ -65,18 +65,19 @@ body {
     border-radius: 15px;
     z-index: 10;
 }
-#prev:hover, #next:hover {
+#prev:hover, #next:hover, #toggle:hover {
     background-color: #88846f;
 }
 /* Moving Figcaption to be inside the Footer */
 figcaption {
-    position: fixed;
+    position: absolute;
+    width: 60%;
     bottom: 10px;
     left: 0;
     height: 2em;
     margin-top: 5px;
     margin-left: 20px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #bfb99e;
     z-index: 10;
 }

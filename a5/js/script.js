@@ -1,13 +1,38 @@
-// First store variables for the figures and timer text
+// First store variables for the figures and timer text and div
 var imgs = document.getElementsByTagName("figure");
 var timer = document.getElementById("timer");
+var bubble = document.getElementById("bubble");
+// Initially hide the timer and containing div
+bubble.style.visibility = "hidden";
 // Establish an index for the image and set a timer var and intervals
 var currImg = 0;
 var currTime = 4;
-var interval = setInterval(nextImage, 4000);
-var countdown = setInterval(updateTimer, 1000);
+// Initially set autoplay to false
+var autoplay = false;
+var interval;
+var countdown;
 // When the script first runs, set change the image to be the first one
 changeImg(currImg);
+
+// Function to turn autoplay on and off
+function toggleAutoplay() {
+    // If autoplay is on already, turn it off
+    if (autoplay) {
+        // Hide the countdown
+        bubble.style.visibility = "hidden";
+        clearInterval(interval);
+        clearInterval(countdown);
+        toggleButton.textContent = "Resume Autoplay";
+    } else {
+        // Show the countdown
+        bubble.style.visibility = "visible";
+        // Reset the interval
+        resetInterval();
+        toggleButton.textContent = "Pause Autoplay";
+    }
+    // Switch the boolean to be opposite of what it was
+    autoplay = !autoplay;
+}
 
 // Function to change the image to the wanted index
 function changeImg(index) {
@@ -50,9 +75,12 @@ function resetInterval() {
 function previousImage() {
     if (currImg === 0) {
         changeImg(imgs.length - 1);
-        resetInterval();
     } else {
         changeImg(currImg - 1);
+    }
+
+    // Reset the interval if autoplay is turned on
+    if (autoplay) {
         resetInterval();
     }
 }
@@ -61,9 +89,12 @@ function previousImage() {
 function nextImage() {
     if (currImg === imgs.length - 1) {
         changeImg(0);
-        resetInterval();
     } else {
         changeImg(currImg + 1);
+    }
+
+    // Reset the interval if autoplay is turned on
+    if (autoplay) {
         resetInterval();
     }
 }
@@ -75,3 +106,6 @@ prevButton.addEventListener("click", previousImage);
 
 var nextButton = document.getElementById("next");
 nextButton.addEventListener("click", nextImage);
+
+var toggleButton = document.getElementById("toggle");
+toggleButton.addEventListener("click", toggleAutoplay);
