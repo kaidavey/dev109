@@ -5,9 +5,9 @@ var form = document.getElementById("form");
 form.addEventListener("submit", function (e) {
     var isValid = true;
     // Create variables for the inputted values.
-    var name = e.target.name.value;
-    var email = e.target.email.value;
-    var comment = e.target.comment.value;
+    var name = e.target['entry.1231670306'].value;
+    var email = e.target['entry.1292670517'].value;
+    var comment = e.target['entry.805226640'].value;
 
     // Clear any preexisting error messages
     document.getElementById("nameErr").innerHTML = "";
