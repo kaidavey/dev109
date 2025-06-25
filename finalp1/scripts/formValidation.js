@@ -29,7 +29,15 @@ form.addEventListener("submit", function (e) {
     }
 
     // If the form is not valid, prevent form from submitting
-    if (!isValid) {
+    if (isValid) {
+        // Alert the user that the form was submitted successfully
+        alert("Thanks! Your message was sent.");
+
+        // Reset the form after submission
+        document.getElementById('form').reset();
+    } else {
+        alert('Please complete all fields before submitting.');
         e.preventDefault();
+        return false;
     }
 })

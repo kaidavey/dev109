@@ -20,11 +20,9 @@
   <ul>
     <li class="nav"><a class="nav" href="index.html">HOME</a></li>
     <li class="nav"><a class="nav" href="about.html">ABOUT</a></li>
-    <li class="nav"><a class="nav" href="courses.html">COURSES</a></li>
-    <li class="nav"><a class="nav" href="artifacts.html">ARTIFACTS</a></li>
-    <li class="nav"><a class="nav" href="modules.html">MODULES</a></li>
-    <li class="nav"><a class="nav" href="contact.html">CONTACT</a></li>
     <li class="nav"><a class="nav" href="creative.html">DESIGNS</a></li>
+    <li class="nav"><a class="nav" href="courses.html">COURSES</a></li>
+    <li class="nav"><a class="nav" href="contact.html">CONTACT</a></li>
   </ul>
 </nav>
 <div class="content">
@@ -38,30 +36,7 @@
   </div>
 </div> <!-- End of Content -->
 <footer class="home">
-  <p class="credits">Copyright &copy; 2025</p>
+  <p class="credits">Made by Kai</p>
 </footer>
-<script>
-  const token = "BQBVNJgy_dXQThrvTu7_Ot-cRwymECasetfw4AIiqs5T4FqNczO6F-HhxOKbQecJ6MaFE57YY0LpimaooiOgztIYH3MhAzc7ZmABFpvVf0blQurouO_OFBGlV3uwgrDte6W6cdgpyZXlEO93XO2fHAS3NLII08UyD69K-8X0LqyccSaANJFS_F2sJcW8a3iFxX2iA_iBW5hTurOzajpr-IsTOKnU7FdqJwxRnGYAfiJRzlS-OA6iRvTkKI-I_oZlhpI0uxyfIFHjc0QCmniKXkNPJjEim8OlvoYa_DJcr1VOBm6rbQBXuQ1LZejy"; // short-lived (1 hour max)
-
-  async function fetchCurrentlyPlaying() {
-    const res = await fetch("https://api.spotify.com/v1/me", {
-      headers: {
-        Authorization: 'Bearer ' + token
-      }
-    });
-
-    console.log(res.status);
-    if (res.status === 204 || res.status > 400) {
-      document.getElementById("spotify-status").innerText = "Not listening to anything.";
-      return;
-    }
-    const data = await res.json();
-    const track = data.item;
-    console.log(track.name);
-    document.getElementById("spotify-status").innerHTML = "<p><strong>${track.name}</strong> by ${track.artists.map(artist => artist.name).join(', ')}</p>";
-  }
-
-  fetchCurrentlyPlaying();
-</script>
 </body>
 </html>

@@ -72,6 +72,21 @@ a.nav:hover {
     color: white;
 }
 
+/* Back Button Styling */
+#back-button {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    object-position: top;
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+}
+#back-button:hover {
+    cursor: pointer;
+    object-position: bottom;
+}
+
 /* Content Div Styling */
 .content {
     flex: 1; /* Allow content to take up size of container */
