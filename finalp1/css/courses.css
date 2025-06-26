@@ -24,6 +24,20 @@
     font-weight: 600;
 }
 /* Artifact and Module Buttons Styling */
-.buttonLink {
-
+.button-link {
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 2px;
+    background-color: #bd49a6;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+.button-link:hover {
+    background-color: #6c2573;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
 }
