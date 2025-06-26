@@ -34,7 +34,9 @@ form.addEventListener("submit", function (e) {
         alert("Thanks! Your message was sent.");
 
         // Reset the form after submission
-        document.getElementById('form').reset();
+        setTimeout(() => {
+            document.getElementById('form').reset();
+        }, 1000);
     } else {
         alert('Please complete all fields before submitting.');
         e.preventDefault();
