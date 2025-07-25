@@ -6,14 +6,11 @@
 /* Pink Pinned Page Styling Settings */
 .page {
     display: block;
-    width: 50%;
+    width: 60%;
+    height: auto;
     padding: 3%;
     margin: 35px auto;
-    background-image: url("../images/page-pinkpin.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    overflow: hidden;
+    background: #fff;
 }
 
 /* My Coolest Projects Header Formatting */
