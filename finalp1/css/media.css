@@ -1,0 +1,22 @@
+/* Header Color */
+.media {
+    background-color: #e3b649;
+}
+
+/* Pink Pinned Page Styling Settings */
+.page {
+    display: block;
+    width: 50%;
+    padding: 3%;
+    margin: 35px auto;
+    background-image: url("../images/page-pinkpin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    overflow: hidden;
+}
+
+/* My Coolest Projects Header Formatting */
+#heading {
+    text-align: center;
+}
