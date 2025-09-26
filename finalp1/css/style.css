@@ -153,14 +153,17 @@ footer {
         font-size: 9pt;
     }
     .sticker {
-        width: 100px !important;
+        width: 80px !important;
         height: auto !important;
     }
-    #olympic {
+    #ucla {
         width: 120px !important;
     }
-    #emoji {
+    #bear {
         width: 80px !important;
+    }
+    #sn {
+        width: 20px !important;
     }
     .button-link {
         padding: 8px 16px; !important;

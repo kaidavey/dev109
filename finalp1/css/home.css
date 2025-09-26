@@ -17,11 +17,17 @@
     margin: 0 auto;
 }
 
-/* Spinning Emoji Styling */
-#emoji {
-    width: 60%;
+/* Sticker Formatting */
+#bear {
+    width: 80%;
     margin: 0 auto;
-    animation: spin 6s linear infinite;
+    /* animation: spin 6s linear infinite; */
+}
+#sn {
+    width: 25%;
+    margin: 0 auto;
+    transform: translate(-40px, -20px);
+    /* animation: spin 6s linear infinite; */
 }
 
 /* Spin Animation */

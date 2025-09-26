@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="css/creative.css" type="text/css">
   <link rel="icon" type="image/png" href="images/favicon.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" type="text/css">
+  <style>
+  /* Lightbox styles added inline to ensure it works even if external CSS is missing */
+  #lightbox { display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); justify-content: center; align-items: center; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 90%; max-height: 90%; border-radius: 6px; box-shadow: 0 10px 30px rgba(0,0,0,0.6); }
+  #lightbox-close { position: absolute; top: 20px; right: 30px; font-size: 40px; color: white; cursor: pointer; user-select: none; }
+  body.lightbox-open { overflow: hidden; }
+  </style>
 </head>
 <body>
 <header class="designs">
@@ -79,8 +87,46 @@
 </div> <!-- End of Content -->
 <footer class="designs">
   <p class="credits">Made from scratch by Kai</p>
-  <a href=https://instagram.com/kaidavey_" target="_blank"><img src="images/sprites/instagram.png" class="socials" alt="Instagram Logo"></a>
-  <a href=https://linkedin.com/kaidavey" target="_blank"><img src="images/sprites/linkedin.png" class="socials" id="ln" alt="LinkedIn Logo"></a>
+  <a href="https://instagram.com/kaidavey_" target="_blank"><img src="images/sprites/instagram.png" class="socials" alt="Instagram Logo"></a>
+  <a href="https://linkedin.com/kaidavey" target="_blank"><img src="images/sprites/linkedin.png" class="socials" id="ln" alt="LinkedIn Logo"></a>
 </footer>
+<div id="lightbox">
+  <span id="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="Expanded sticker">
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightbox-img');
+  const lbClose = document.getElementById('lightbox-close');
+
+  if (!lb || !lbImg) return; // nothing to do
+
+  document.querySelectorAll('img.logos, img.merch').forEach(img => {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', function(e) {
+      lbImg.src = this.src;
+      lb.classList.add('open');
+      document.body.classList.add('lightbox-open');
+    });
+  });
+
+  function closeLightbox() {
+    lb.classList.remove('open');
+    document.body.classList.remove('lightbox-open');
+    lbImg.src = '';
+  }
+
+  if (lbClose) lbClose.addEventListener('click', closeLightbox);
+
+  lb.addEventListener('click', function(e) {
+    if (e.target === lb) closeLightbox();
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+});
+</script>
 </body>
 </html>
