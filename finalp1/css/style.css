@@ -115,9 +115,27 @@ footer {
     height: 60px;
 }
 .credits {
+    align-content: center;
     font-size: 12px;
     padding: 1em;
     margin: 0 auto;
+    transform: translateX(35%);
+}
+.socials {
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: bottom;
+    transform: translateY(5px);
+}
+.socials:hover {
+    object-position: top;
+}
+#ln {
+    margin-right: 15px;
+    right: 40px;
 }
 
 /* For screens smaller than 1100 */
