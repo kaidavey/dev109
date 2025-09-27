@@ -52,3 +52,42 @@ p.goals {
 h3.bc-blurb {
     margin-top: 30px;
 }
+
+/* Carousel Styling */
+.carousel {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    border: none;
+    padding: 8px 6px;
+    cursor: pointer;
+    border-radius: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.carousel:hover button {
+    opacity: 1;
+}
+.carousel .prev { left: 10px; }
+.carousel .next { right: 10px; }
